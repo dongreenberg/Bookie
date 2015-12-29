@@ -1,16 +1,15 @@
-Bookie
+#Bookie
 Timothy Boehm, Don Greenberg, Steven Rothstein
 
-A web+iOS+Android suite allowing Binghamton University students to manage extracurricular events and organizations, as well as import their academic calendars to their local calendar of choice.
+##A web+iOS+Android suite allowing Binghamton University students to manage extracurricular events and organizations, as well as import their academic calendars to their local calendar of choice.
 
-I. Platforms, Setup, and Requirements- 
+#Platforms, Setup, and Requirements- 
 
 Bookie runs on a number of platforms:
-
 1. Wamp -
-	WampServer Version 2.4
-	http://www.wampserver.com
-	WampServer must be run on a Windows machine!
+  WampServer Version 2.4
+  http://www.wampserver.com
+  WampServer must be run on a Windows machine!
 2. MySql -
 	Version 5.6.12
 3. Apache -
