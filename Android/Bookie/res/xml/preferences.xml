@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_sync_device"
+        android:summary="@string/pref_sync_device_summ"
+        android:title="@string/pref_sync_device" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="pref_sync_device"
+        android:key="pref_notifications_wanted"
+        android:summary="@string/pref_notifications_wanted_summ"
+        android:title="@string/pref_notifications_wanted" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_reminder_wanted"
+        android:summary="@string/pref_reminder_wanted_summ"
+        android:title="@string/pref_reminder_wanted" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_minutes_default"
+        android:dependency="pref_reminder_wanted"
+        android:inputType="number"
+        android:key="pref_minutes"
+        android:summary="@string/pref_minutes_default"
+        android:title="@string/pref_minutes" />
+
+</PreferenceScreen>

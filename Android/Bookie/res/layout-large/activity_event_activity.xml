@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:id="@+id/large_event_layout">
+    <!-- "Fragment A" -->
+  <fragment class="com.binghamton.calendar.bookie.EventListFragment"
+            android:id="@+id/event_list_frag"
+            android:layout_width="@dimen/titles_size"
+            android:layout_height="match_parent"/>
+    <!-- "Fragment B" -->
+  <fragment class="com.binghamton.calendar.bookie.EventFragment"
+            android:id="@+id/event_details_frag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>
