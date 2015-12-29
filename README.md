@@ -6,6 +6,7 @@ A web+iOS+Android suite allowing Binghamton University students to manage extrac
 #Platforms, Setup, and Requirements- 
 
 Bookie runs on a number of platforms:
+
 1. Wamp - 
 	WampServer Version 2.4
 	http://www.wampserver.com
