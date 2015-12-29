@@ -1,5 +1,3 @@
-README.txt
-
 Bookie
 Timothy Boehm, Don Greenberg, Steven Rothstein
 
