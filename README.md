@@ -1,7 +1,7 @@
 #Bookie
 Timothy Boehm, Don Greenberg, Steven Rothstein
 
-##A web+iOS+Android suite allowing Binghamton University students to manage extracurricular events and organizations, as well as import their academic calendars to their local calendar of choice.
+A web+iOS+Android suite allowing Binghamton University students to manage extracurricular events and organizations, as well as import their academic calendars to their local calendar of choice.
 
 #Platforms, Setup, and Requirements- 
 
@@ -16,21 +16,15 @@ Bookie runs on a number of platforms:
 	Version 2.4.4
 4. PHP -
 	Version 5.4.12
-
-All of this will be set up automatically by downloading and installing WAMP server.
-
 5. XCode
-
 6. Android Development Tools (ADT) -
 	http://developer.android.com/index.html
-
 7. Google Nexus 7 (For testing) -
 	Any Android device running an OS >= Android 4.0 will be supported
-
 8. Apple iPhone 5 -
 	Any iPhone running an OS >= iOS 5 will be supported
 
-II. Database arrangement -
+#Database Setup
 
 The database tables necessary to run the program can be created and configured via the following steps -
 
@@ -40,11 +34,11 @@ our source submission.
 
 If successful, you should see 8 tables in the database.
 
-III. iOS Setup -
+#iOS Setup
 
 Import the project into Xcode
 
-IV. Android Setup -
+#Android Setup
 
 Import the Bookie project along with the google-play-services_lib project into Android Development Tools Eclipse.
 
@@ -57,15 +51,12 @@ http://developer.android.com/google/gcm/client.html
 
 --NOTE Either register for a DNS name, or change the global HTTPUtility.java and IP variables in the iOS and Android code to your server's IP.
 
-
-V. PHP Setup -
+#PHP Setup -
 
 Copy all of the PHP and HTML source into the base directory of the server. Make sure this directory is visible to outside IP's.
 
+#Running the Project and Using Bookie
 
-VI. Running the Project and Using Bookie
-
-Since only the Android version is complete, we will only include instructions for running that version here.
 The website we created is for organization and event creation. The mobile app is for users to control their subscriptions
 and events, as well as importing a class schedule. The mobile app uses the data created on the website.
 
@@ -92,7 +83,7 @@ for that organization.
 
 8. On home.html, click "Logout" to end your session.
 
--------The Rest of the Steps are from the main screen of the Android App-------
+In the main screen of the Android App:
 
 9. Click "My Organizations" to view your subscribed organizations.
 Click an organization from the list to see its events and optionally unsubscribe.
